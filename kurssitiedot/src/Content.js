@@ -2,8 +2,6 @@ import React from 'react'
 import Part from './Part'
 
 const Content = ({ parts }) => {
-  console.log('TCL: Content -> parts', parts)
-
   return (
     <>
       <Part part={parts[0]} />
